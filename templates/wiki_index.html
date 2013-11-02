@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css">
+<div class="content-switch">
+	<div class="controls">
+		<h2><span></span></h2>
+	</div>
+	<div class="panes">
+		<div class="box-free">
+			<h2 class="section-heading"><center>Wiki version history information</center></h2>
+			
+			<div>
+				<form method="post" name="example">{% csrf_token %}
+				<b>Enter wiki article url : </b> <input name="wikiurl" id="wikiurl" type="text">
+				<input id="button" type="button" value="Fetch versions"></input>
+			</div>
+			
+			 <div id="result">
+				Example : http://en.wikipedia.org/wiki/Hitachi_Consulting <br/><br/><br/>
+			 </div>
+			 
+			 <div>&nbsp;</div>
+			 <div id="article1" class="article1">VERSION INFORMATION WILL BE LOADED HERE </div>
+		</div>
+	</div>
+</div> 
+</form>
+<!-- /content-switch -->
+<script src="{% static "js/jquery.min.js" %}"></script>
+<script src="{% static "js/wikifetch.js" %}"></script>
