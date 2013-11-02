@@ -21,7 +21,7 @@ class JSONResponse(HttpResponse):
         super(JSONResponse, self).__init__(content, **kwargs)
 		
 def home(request):
-	return render_to_response('index.html',
+	return render_to_response('wiki_index.html',
                           {'data': "hello"},
                           context_instance=RequestContext(request))	
 
