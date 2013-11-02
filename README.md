@@ -1,5 +1,4 @@
-
-            <h1 id="tutorial-1-serialization">Overview: Wikifetch</h1>
+            
 <h2 id="introduction">Introduction</h2>
 <p>This tutorial will cover creating a simple wiki scrape code for highlighting Python Django REST Framework Web API.<br/> </p><p> Along the way it will make you understand how to create new django REST based applicaiton to fetch wikipedia Revision history details dynamically related to any wikipedia article and display article information upon revision selection.</p>
 
