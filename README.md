@@ -3,7 +3,7 @@
 <p>This tutorial will cover creating a simple wiki scrape code for highlighting Python Django REST Framework Web API.<br/> </p><p> Along the way it will make you understand how to create new django REST based applicaiton to fetch wikipedia Revision history details dynamically related to any wikipedia article and display article information upon revision selection.</p>
 
 <hr />
-<p><strong>Note</strong> <a href="http://webxanimation.com/api/"> available here</a>.</p>
+<p><strong>Note</strong> Demo application is <a href="http://webxanimation.com/api/"> available here</a>.</p>
 <hr />
 <h2 id="setting-up-a-new-environment">Requirements</h2>
 <ul>
